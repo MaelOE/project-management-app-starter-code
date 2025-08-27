@@ -1,12 +1,11 @@
+function TaskCard({ title, description }) {
+  return (
+    <div className="TaskCard card">
+      <h3>{title}</h3>
+      <h4>Description:</h4>
+      <p>{description}</p>
+    </div>
+  );
+}
 
-function TaskCard() {
-    return (
-      <div className="TaskCard card">
-        <h3>TASK_TITLE_HERE</h3>
-        <h4>Description:</h4>
-        <p>TASK_DESCRIPTION_HERE</p>
-      </div>
-    );
-  }
-  
-  export default TaskCard;
+export default TaskCard;
